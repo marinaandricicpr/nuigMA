@@ -1,0 +1,33 @@
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\bin\x86\Debug\Cognitive Stimulation.exe
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\bin\x86\Debug\Cognitive Stimulation.exe.config
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.ArrowsGame_Form.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.Properties.Resources.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.Words_Form.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.MemoryGame_Form.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.SimmonGame_Form.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.Form1.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.Puzzle.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\CognitiveStimulation.csproj.GenerateResource.cache
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\CognitiveStimulation.csproj.CoreCompileInputs.cache
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive Stimulation.exe
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive Stimulation.pdb
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\bin\x86\Debug\Cognitive Stimulation.pdb
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\GAMES\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\CognitiveStimulation.csprojAssemblyReference.cache
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\bin\x86\Debug\Cognitive Stimulation.exe.config
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\bin\x86\Debug\Cognitive Stimulation.exe
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\bin\x86\Debug\Cognitive Stimulation.pdb
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.ArrowsGame_Form.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.CustomMessageBox.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.Sudoku_Form.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.Signin_Form.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.Properties.Resources.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.Words_Form.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.MemoryGame_Form.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.SimmonGame_Form.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.Form1.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive_Stimulation.Puzzle.resources
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\CognitiveStimulation.csproj.GenerateResource.cache
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\CognitiveStimulation.csproj.CoreCompileInputs.cache
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive Stimulation.exe
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\Cognitive Stimulation.pdb
+C:\Users\Marina.Andricic\Documents\2021\moje\Tises\PUTTINGITALLTOGETHER\PDP_Training\PDP_Training\CognitiveStimulation\CognitiveStimulation\obj\x86\Debug\CognitiveStimulation.csprojAssemblyReference.cache

@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{919327E5-6B2C-4027-9D25-FA8CF3DCF565}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Cognitive_Stimulation</RootNamespace>
+    <AssemblyName>Cognitive Stimulation</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buttons\ImageButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Buttons\SudokuCell.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Code\Communicator.cs" />
+    <Compile Include="Code\Curve.cs" />
+    <Compile Include="Code\Coordinate.cs" />
+    <Compile Include="Code\GameSettings.cs" />
+    <Compile Include="Code\ImageUtilities.cs" />
+    <Compile Include="Code\Piece.cs" />
+    <Compile Include="Code\ResponseMessage.cs" />
+    <Compile Include="ArrowsGame_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArrowsGame_Form.Designer.cs">
+      <DependentUpon>ArrowsGame_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\CommonFunctions.cs" />
+    <Compile Include="Common\Session.cs" />
+    <Compile Include="Controls\CustomMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomMessageBox.Designer.cs">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Procedure.cs" />
+    <Compile Include="Sudoku_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sudoku_Form.Designer.cs">
+      <DependentUpon>Sudoku_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Signin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Signin.Designer.cs">
+      <DependentUpon>Signin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Words_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Words_Form.Designer.cs">
+      <DependentUpon>Words_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemoryGame_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemoryGame_Form.Designer.cs">
+      <DependentUpon>MemoryGame_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimmonGame_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimmonGame_Form.Designer.cs">
+      <DependentUpon>SimmonGame_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Puzzle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Puzzle.Designer.cs">
+      <DependentUpon>Puzzle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Controls\simonButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\simonButton.Designer.cs">
+      <DependentUpon>simonButton.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ArrowsGame_Form.resx">
+      <DependentUpon>ArrowsGame_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CustomMessageBox.resx">
+      <DependentUpon>CustomMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sudoku_Form.resx">
+      <DependentUpon>Sudoku_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signin.resx">
+      <DependentUpon>Signin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Words_Form.resx">
+      <DependentUpon>Words_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemoryGame_Form.resx">
+      <DependentUpon>MemoryGame_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimmonGame_Form.resx">
+      <DependentUpon>SimmonGame_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Puzzle.resx">
+      <DependentUpon>Puzzle.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reasoning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\1.png" />
+    <None Include="bin\Debug\2.png" />
+    <None Include="bin\Debug\3.bmp" />
+    <None Include="bin\Debug\3.png" />
+    <None Include="bin\Debug\4.png" />
+    <Content Include="bin\Debug\vocabulary.txt" />
+    <Content Include="Resources\1.png" />
+    <None Include="Resources\1992702.png" />
+    <Content Include="Resources\2.png" />
+    <None Include="Resources\MEMORY.png" />
+    <None Include="Resources\aa2a3267882791aeb99b66b68a832dc2.jpg" />
+    <None Include="Resources\done.png" />
+    <Content Include="Resources\memoryCards\card1.png" />
+    <Content Include="Resources\memoryCards\card10.png" />
+    <Content Include="Resources\memoryCards\card11.png" />
+    <Content Include="Resources\memoryCards\card12.png" />
+    <Content Include="Resources\memoryCards\card13.png" />
+    <Content Include="Resources\memoryCards\card14.png" />
+    <Content Include="Resources\memoryCards\card15.png" />
+    <Content Include="Resources\memoryCards\card16.png" />
+    <Content Include="Resources\memoryCards\card2.png" />
+    <Content Include="Resources\memoryCards\card3.png" />
+    <Content Include="Resources\memoryCards\card4.png" />
+    <Content Include="Resources\memoryCards\card5.png" />
+    <Content Include="Resources\memoryCards\card6.png" />
+    <Content Include="Resources\memoryCards\card7.png" />
+    <Content Include="Resources\memoryCards\card8.png" />
+    <Content Include="Resources\memoryCards\card9.png" />
+    <Content Include="Resources\memoryCards\empty.png" />
+    <None Include="Resources\SPEEDOFPROCESS.png" />
+    <None Include="Resources\train-your-brain.jpg" />
+    <None Include="Resources\userlogin.png" />
+    <None Include="Resources\PuzzleSlide\Arrows\arrow_down.png" />
+    <None Include="Resources\PuzzleSlide\Arrows\arrow_left.png" />
+    <None Include="Resources\PuzzleSlide\Arrows\arrow_right.png" />
+    <None Include="Resources\PuzzleSlide\Arrows\arrow_up.png" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Others\metal_BackGroundMenu.bmp" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Others\metal_BackGroundStatus.bmp" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Others\metal_imgEmpty.png" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Others\metal_TexturaFondo.bmp" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img1.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img2.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img3.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img4.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img5.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img6.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img7.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img8.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img9.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img10.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img11.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img12.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img13.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img14.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img15.PNG" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img16.png" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img17.png" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img18.png" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img19.png" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img20.png" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img21.png" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img22.png" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img23.png" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img24.png" />
+    <None Include="Resources\PuzzleSlide\MetalSkin\Numbers\metal_img25.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img1.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img2.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img3.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img4.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img5.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img6.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img7.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img8.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img9.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img10.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img11.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img12.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img13.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img14.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img15.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img16.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img17.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img18.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img19.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img20.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img21.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img22.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img23.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img24.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Numbers\wood_img25.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Others\wood_BackGroundMenu.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Others\wood_BackGroundStatus.bmp" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Others\wood_imgEmpty.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Others\wood_imgNumEmptyBlack.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Others\wood_imgNumEmptyWhite.png" />
+    <None Include="Resources\PuzzleSlide\WoodSkin\Others\wood_TexturaFondo.png" />
+    <None Include="Resources\style-7s-timer.png" />
+    <Content Include="Resources\vocabulary.txt" />
+    <None Include="Resources\3.bmp" />
+    <Content Include="Resources\3.png" />
+    <Content Include="Resources\4.png" />
+    <Content Include="Resources\blip.wav" />
+    <Content Include="Resources\done.wav" />
+    <Content Include="Resources\home2.png" />
+    <Content Include="Resources\information1.png" />
+    <None Include="Resources\leftarrow.png" />
+    <Content Include="Resources\nono.wav" />
+    <None Include="Resources\rightarrow.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
